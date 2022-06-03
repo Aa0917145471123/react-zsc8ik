@@ -1,13 +1,13 @@
-import React from "react";
-import logo form 
-import "./style.css";
+import React from 'react';
+import './style.css';
+
 
 export default function App() {
   return (
-    
     <div>
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
+      <img src={require('./richwomenlogo.png')} alt ="richlogo"/>
     </div>
   );
 }
